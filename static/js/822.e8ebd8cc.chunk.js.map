@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/822.e8ebd8cc.chunk.js","mappings":"gMAAe,SAASA,IAEtB,OACEC,EAAAA,EAAAA,KAAA,MAAAC,SAAI,SAGR,C","sources":["pages/Catalog/Catalog.jsx"],"sourcesContent":["export default function Catalog() {\n\n  return (\n    <h1>HELLO</h1>\n   \n  );\n}\n"],"names":["Catalog","_jsx","children"],"sourceRoot":""}
