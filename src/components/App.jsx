@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import { lazy } from 'react';
-import Layout from './Layout/Layout';
+import Layout from '../components/Layout/Layout';
 import { Toaster } from 'react-hot-toast';
 
 const Home = lazy(() => import('../pages/Home/Home'));
@@ -9,6 +9,8 @@ const Favorites = lazy(() => import('../pages/Favorites/Favorites'));
 
 export const App = () => {
   return (
+
+    
     <div
       style={{
         height: '100vh',
