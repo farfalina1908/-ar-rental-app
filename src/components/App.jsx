@@ -11,16 +11,8 @@ export const App = () => {
   return (
 
     
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-      }}
-    >
+    <>
+    
       <Toaster />
       <Routes>
         <Route path="/" element={<Layout />}>
@@ -30,6 +22,6 @@ export const App = () => {
           <Route path="*" element={<Home />} />
         </Route>
       </Routes>
-    </div>
+      </>
   );
 };
