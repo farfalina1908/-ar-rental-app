@@ -9,10 +9,7 @@ const Favorites = lazy(() => import('../pages/Favorites/Favorites'));
 
 export const App = () => {
   return (
-
-    
     <>
-    
       <Toaster />
       <Routes>
         <Route path="/" element={<Layout />}>
@@ -22,6 +19,6 @@ export const App = () => {
           <Route path="*" element={<Home />} />
         </Route>
       </Routes>
-      </>
+    </>
   );
 };

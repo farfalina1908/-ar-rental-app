@@ -2,7 +2,7 @@ import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 import { LIMIT_PER_PAGE } from '../../constants/constants';
 
-// axios.defaults.baseURL = 'https://6529142055b137ddc83e2c0b.mockapi.io/api';
+axios.defaults.baseURL = 'https://65da1673bcc50200fcdc8f9a.mockapi.io/api';
 
 export const fetchCarsThunk = createAsyncThunk(
   'cars/fetchCars',
