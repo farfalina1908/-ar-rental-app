@@ -1,66 +1,68 @@
 import Container from '../Container/Container';
+import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md';
+import { AiOutlinePhone } from 'react-icons/ai';
 import {
   StyledFooter,
   StyledFooterContainer,
-  StyledFooterMediaContainer,
-  StyledFooterMetaContainer,
-  StyledFooterMetaLink,
-  Twitter,
+  FooterList,
+  SocialNet,
+  Span,
 } from './Footer.styled';
-import Logo from '../Logo/Logo';
-import Icon from '../Icon/Icon';
+
 
 const Footer = () => {
   return (
     <StyledFooter>
       <Container>
         <StyledFooterContainer>
-          <Logo />
 
-          <StyledFooterMetaContainer>
-            <StyledFooterMetaLink
-              href="farfalina1908.github.io/car-rental-app/"
-              target="_blank"
-              referrerPolicy="no-referrer"
-            >
-              Privacy Policy
-            </StyledFooterMetaLink>
-          </StyledFooterMetaContainer>
-
-          <StyledFooterMediaContainer>
+          <FooterList>
             <li>
-              <a href="https://twitter.com/" target="_blank" rel="noreferrer">
-                <Twitter />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://web.telegram.org/"
+              <SocialNet
+                href="https://www.facebook.com"
                 target="_blank"
-                rel="noreferrer"
+                rel="noreferrer noopener nofollower"
               >
-                <Icon name={'telegram'} size={48} />
-              </a>
+                <FaFacebook size={24} />
+              </SocialNet>
             </li>
             <li>
-              <a
-                href="https://www.instagram.com/"
+              <SocialNet
+                href="https://www.instagram.com"
                 target="_blank"
-                rel="noreferrer"
+                rel="noreferrer noopener nofollower"
               >
-                <Icon name={'insta'} />
-              </a>
+                <FaInstagram size={24} />
+              </SocialNet>
             </li>
             <li>
-              <a
-                href="https://www.facebook.com/"
+              <SocialNet
+                href="https://www.linkedin.com"
                 target="_blank"
-                rel="noreferrer"
+                rel="noreferrer noopener nofollower"
               >
-                <Icon name={'facebook'} size={38} />
-              </a>
+                <FaLinkedin size={24} />
+              </SocialNet>
             </li>
-          </StyledFooterMediaContainer>
+          </FooterList>
+          <address>
+            <FooterList>
+              <li>
+                <SocialNet href="mailto:info@rent_car.com">
+                  <MdEmail size={24} style={{ marginRight: '10px' }} />
+                  <Span>info@rent-car.com</Span>
+                </SocialNet>
+              </li>
+              <li>
+                <SocialNet href="tel:+380730000000" className="header-tel link">
+                  <AiOutlinePhone size={24} style={{ marginRight: '5px' }} />
+                  <Span>+380 (73) 000-00-00</Span>
+                </SocialNet>
+              </li>
+            </FooterList>
+          </address>
+         
         </StyledFooterContainer>
       </Container>
     </StyledFooter>

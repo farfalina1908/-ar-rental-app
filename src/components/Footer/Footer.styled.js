@@ -1,53 +1,55 @@
 import styled from 'styled-components';
-import { ReactComponent as IconTwitter } from '../../images/twitter.svg';
 
 export const StyledFooter = styled.footer`
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: var(--grey-color);
-  padding: 32px 0px;
-  box-shadow: 34px 12px 14px 30px rgba(0, 0, 0, 0.2),
-    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  background-color: transporent;
 `;
 
 export const StyledFooterContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  gap: 12px;
+  @media screen and (max-width: 425px) {
+    gap: 8px;
+  }
 `;
 
-export const StyledFooterMetaContainer = styled.ul`
+export const FooterList = styled.ul`
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 18px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  @media screen and (max-width: 425px) {
+    gap: 5px;
+    flex-direction: column;
+  }
 `;
 
-export const StyledFooterMetaLink = styled.a`
-  color: var(--main-text-color);
-  font-weight: 600;
-  transition: var(--transition);
+export const SocialNet = styled.a`
+  color: var(--secondary-black-color);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
 
-  &:hover,
-  &:focus {
+  &.active {
     color: var(--light-blue-color);
+    text-decoration: underline;
   }
-`;
-
-export const StyledFooterMediaContainer = styled.ul`
-  display: flex;
-  gap: 8px;
-`;
-
-export const Twitter = styled(IconTwitter)`
-  width: 48px;
-  height: 48px;
-  fill: #03a9f4;
-  transition: var(--transition);
 
   &:hover,
   &:focus {
-    fill: var(--light-blue-color);
+    color: var(--dark-blue-color);
+    transform: scale(1.05);
   }
+`;
+export const Span = styled.span`
+  vertical-align: top;
 `;

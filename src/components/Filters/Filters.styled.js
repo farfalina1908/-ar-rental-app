@@ -61,7 +61,7 @@ export const FilterFormSelect = styled.select`
 `;
 
 export const SelectArrow = styled(IconArrow)`
-  fill: #03a9f4;
+  fill: var(--filter-grey-color);
   transition: var(--transition);
   height: 24px;
   width: 24px;

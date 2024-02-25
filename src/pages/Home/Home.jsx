@@ -16,15 +16,17 @@ export default function Home() {
       <Container>
         <Heading>Need a car? You're in good hands!</Heading>
         <Text>
-          We are a company that specializes in providing car rental services in
-          Ukraine. Our goal is to make your trip as convenient and comfortable
-          as possible, giving you access to the best cars with favorable rental
-          conditions.
+          We specialize in providing car rental services in Ukraine, striving to
+          make your trip as convenient and comfortable as possible by offering
+          access to the best cars with favorable rental conditions.
         </Text>
-        <Button paddingX={99} onClick={onHandleClick}>
+        {/* <Button paddingX={99} marginTop="100px" onClick={onHandleClick}>
           LET'S GO
-        </Button>
+        </Button> */}
       </Container>
+      <Button paddingX={99} marginTop="100px" onClick={onHandleClick}>
+        LET'S GO
+      </Button>
     </Wrapper>
   );
 }
