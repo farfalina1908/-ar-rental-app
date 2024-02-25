@@ -108,7 +108,7 @@ export const Filters = () => {
         disabled={isLoading}
         onClick={() => dispatch(clearFilter())}
       >
-        Reset filters
+        Reset
       </FilterButton>
     </FormWrripper>
   );
