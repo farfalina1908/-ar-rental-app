@@ -12,16 +12,14 @@ export default function Home() {
   };
 
   return (
-    
     <Wrapper>
       <Container>
-        <Heading>
-          Looking for a vehicle? You’re at the right place. Our company is the
-          only rental company I’ve never had an issue with. Seriously… they’ve
-          turned me into a lifelong client.
-        </Heading>
+        <Heading>Need a car? You're in good hands!</Heading>
         <Text>
-        HELLO
+          We are a company that specializes in providing car rental services in
+          Ukraine. Our goal is to make your trip as convenient and comfortable
+          as possible, giving you access to the best cars with favorable rental
+          conditions.
         </Text>
         <Button paddingX={99} onClick={onHandleClick}>
           LET'S GO
