@@ -92,6 +92,7 @@ export const FilterFormInputTo = styled(StyledInput)`
 
 export const FilterButton = styled.button`
   border-radius: 12px;
+  width: 136px
   color: var(--white-text-color);
   background-color: var(--light-blue-color);
   padding: 14px 44px;
