@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/car-rental-app/static/css/main.9a32734d.css",
-    "main.js": "/car-rental-app/static/js/main.d3bd5dc0.js",
-    "static/js/621.af3a7391.chunk.js": "/car-rental-app/static/js/621.af3a7391.chunk.js",
-    "static/js/612.8a8183c2.chunk.js": "/car-rental-app/static/js/612.8a8183c2.chunk.js",
-    "static/js/786.b3371eb1.chunk.js": "/car-rental-app/static/js/786.b3371eb1.chunk.js",
-    "static/js/795.4bcda555.chunk.js": "/car-rental-app/static/js/795.4bcda555.chunk.js",
-    "static/js/893.f4251e99.chunk.js": "/car-rental-app/static/js/893.f4251e99.chunk.js",
-    "static/media/hanson-lu-956EmlIRARQ-unsplash-min.jpg": "/car-rental-app/static/media/hanson-lu-956EmlIRARQ-unsplash-min.ab0d38370ba3a9909feb.jpg",
-    "static/media/sprite.svg": "/car-rental-app/static/media/sprite.0d7bb2a6809071847580ce05088f7b0f.svg",
-    "index.html": "/car-rental-app/index.html",
-    "static/media/arrow.svg": "/car-rental-app/static/media/arrow.c2736d596f9484e71f6c89f2c9e5b3f3.svg",
-    "static/media/close.svg": "/car-rental-app/static/media/close.beccf1a21389be635cbc595182eea015.svg",
-    "main.9a32734d.css.map": "/car-rental-app/static/css/main.9a32734d.css.map",
-    "main.d3bd5dc0.js.map": "/car-rental-app/static/js/main.d3bd5dc0.js.map",
-    "621.af3a7391.chunk.js.map": "/car-rental-app/static/js/621.af3a7391.chunk.js.map",
-    "612.8a8183c2.chunk.js.map": "/car-rental-app/static/js/612.8a8183c2.chunk.js.map",
-    "786.b3371eb1.chunk.js.map": "/car-rental-app/static/js/786.b3371eb1.chunk.js.map",
-    "795.4bcda555.chunk.js.map": "/car-rental-app/static/js/795.4bcda555.chunk.js.map",
-    "893.f4251e99.chunk.js.map": "/car-rental-app/static/js/893.f4251e99.chunk.js.map"
+    "main.css": "/static/css/main.9a32734d.css",
+    "main.js": "/static/js/main.db14e39e.js",
+    "static/js/621.af3a7391.chunk.js": "/static/js/621.af3a7391.chunk.js",
+    "static/js/612.8a8183c2.chunk.js": "/static/js/612.8a8183c2.chunk.js",
+    "static/js/786.b3371eb1.chunk.js": "/static/js/786.b3371eb1.chunk.js",
+    "static/js/795.4bcda555.chunk.js": "/static/js/795.4bcda555.chunk.js",
+    "static/js/893.f4251e99.chunk.js": "/static/js/893.f4251e99.chunk.js",
+    "static/media/hanson-lu-956EmlIRARQ-unsplash-min.jpg": "/static/media/hanson-lu-956EmlIRARQ-unsplash-min.ab0d38370ba3a9909feb.jpg",
+    "static/media/sprite.svg": "/static/media/sprite.0d7bb2a6809071847580ce05088f7b0f.svg",
+    "index.html": "/index.html",
+    "static/media/arrow.svg": "/static/media/arrow.c2736d596f9484e71f6c89f2c9e5b3f3.svg",
+    "static/media/close.svg": "/static/media/close.beccf1a21389be635cbc595182eea015.svg",
+    "main.9a32734d.css.map": "/static/css/main.9a32734d.css.map",
+    "main.db14e39e.js.map": "/static/js/main.db14e39e.js.map",
+    "621.af3a7391.chunk.js.map": "/static/js/621.af3a7391.chunk.js.map",
+    "612.8a8183c2.chunk.js.map": "/static/js/612.8a8183c2.chunk.js.map",
+    "786.b3371eb1.chunk.js.map": "/static/js/786.b3371eb1.chunk.js.map",
+    "795.4bcda555.chunk.js.map": "/static/js/795.4bcda555.chunk.js.map",
+    "893.f4251e99.chunk.js.map": "/static/js/893.f4251e99.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a32734d.css",
-    "static/js/main.d3bd5dc0.js"
+    "static/js/main.db14e39e.js"
   ]
 }
